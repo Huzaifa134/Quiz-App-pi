@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* max-width: 600px; */
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+    
+
+}
+.main{
+    background-color: #262b41;
+}
+
+    /* header  */
+
+.head{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom-left-radius:8rem ;
+    border-bottom-right-radius: 8rem;
+    background-color: rgba(44, 66, 90,0.9);
+    box-shadow: 0.01rem 0.2rem 0.5rem #333;
+    /* margin-bottom: 5rem; */
+    
+
+   
+    
+}
+.head i {
+    font-size: 2rem;
+}
+.head img{
+    /* background-color: blue; */
+    height: 100px;
+    width: 100px;
+
+}
+
+/* loadbar   */
+
+ .loadbar{
+    height: 2rem;
+    background-color: #fff;
+   width: 85%;
+   margin-top: 1rem;
+   border-radius: 2rem;
+   
+   /* display: flex; 
+    justify-content: flex-start;
+   align-items: flex-start; */
+
+
+}
+.loadbar .green{
+    float: left;
+    background-color: green;
+    width: 1%;
+    height: 2rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+   
+}
+    
+.loadbar .red{
+    float: left;
+    background-color: red;
+    width: 0%;
+    height: 2rem;
+}
+
+
+/* count  */
+
+
+.count{
+   
+    color: #fff;
+    margin: 5rem 10rem;
+    background-color: #e78230;
+    padding: 0.5rem 2rem;
+    box-shadow: 0.01rem 0.2rem 0.5rem #333;
+}
+.count1{
+    display: flex;
+    
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    justify-content: center;
+   
+    
+}
+.count1 i{
+    font-size: 3rem;
+    
+}
+.h2{
+    align-self: center;
+    text-align: center;
+    
+}
+.h2 i{
+    font-size: 1rem;
+    margin-left: 0.22rem;
+}
+
+/* iq box  */
+
+.iq{
+    text-align: center;
+    height: 5rem;
+    display: flex;
+    color: #fff;
+    margin: 8rem  10rem 0;
+    background-color: #30445d;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    /* justify-content: flex-start; */
+    box-shadow: 0.01rem 0.2rem 0.5rem #333;
+    cursor: pointer;
+    
+}
+.iq p{
+    /* align-self: flex-start; */
+    text-align: left;
+    margin-left: -30rem;
+    font-size: 2rem;
+
+
+}
+
+#brain{
+    color:#e78230 ;
+    font-size: 3rem;
+    margin-left: 19rem;
+    padding-left: 4.4rem;
+
+}
+
+.soon{
+    display: flex;
+    color: #fff;
+    margin: 2rem 10rem 0;
+    background-color: #30445d;
+    border-radius: 0.3rem;
+    font-size: 2rem;
+    justify-content: center;
+    padding: 0.5rem 2rem;
+    box-shadow: 0.01rem 0.2rem 0.5rem #333;
+    height: 5rem;
+    cursor: pointer;
+
+}
+.soon i{
+    font-size: 3rem;
+    color:#e78230 ;
+}
+.soon p{
+    font-size: 2rem;
+    margin-left: -20rem;
+}
+
+/* contact button  */
+
+.contact{
+    cursor: pointer;
+    height: 4rem;
+    width: 31.5rem;
+    background-color: #c9d9e6;
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    /* margin-bottom: 10rem; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.contact1{
+    display: none;
+    cursor: pointer;
+    height: 4rem;
+    width: 31.5rem;
+    background-color: #c9d9e6;
+    border-radius: 1rem;
+    text-align: center;
+    /* padding-top: 0rem; */
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+    color: #333;
+    font-size: 2rem;
+
+}
+
+
+/* .contact1 a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+    
+} */
+.contact a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+    
+}
+
+.empty{
+    height: 2rem;
+}
+
+/* second page   main questins part  */
+
+.opt{
+     text-align: center;
+     padding-top: 1rem;
+    height: 5rem;
+    /* display: flex; */
+    color: #fff;
+    margin: 2rem  10rem 0;
+    background-color: #30445d;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    /* justify-content: flex-start; */
+    box-shadow: 0.01rem 0.2rem 0.5rem #333;
+    cursor: pointer;
+}
+.question{
+    color: #fff;
+    margin:  5rem 10rem;
+    background-color: #e78230;
+    padding: 0.5rem 2rem;
+    box-shadow: 0.01rem 0.2rem 0.5rem #333;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    /* margin-top: -5rem; */
+    
+}
+.questions{
+    display: none;
+}
+.cont{
+    margin-top: -2rem;
+}
+ul li{
+    
+    list-style: none;
+}
+.score{
+    display: none;
+    color: #fff;
+    text-align: center;
+      width: 600px;
+    height: 10rem;
+    background-color: #e78230;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    *{
+        overflow-x: hidden;
+    }
+    
+        /* header  */
+    .head{
+        
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        /* margin-top: -1rem; */
+           
+    }
+    .head i {
+        font-size: 1rem;
+    }
+    .head img{
+        /* background-color: blue; */
+        height: 50px;
+        width: 50px;
+    
+    }
+
+    /* count  */
+    
+    .count{
+       
+        margin: 2rem 1rem ;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+      padding: 0.1rem 0.2rem;
+      
+        
+    }
+    .count i{
+        font-size: 2rem;
+        
+    }
+    
+    .h2 i{
+        font-size: 0.7rem;
+        margin-left: 0.22rem;   
+    }
+    
+    /* iq box  */
+    
+    .iq{
+        height: 5rem;
+        margin: 2rem  3rem 0;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+       
+        
+    }
+    .iq p{
+        margin-left: -2rem;
+        font-size: 1rem;
+    }
+    
+    #brain{
+        font-size: 3rem;
+        margin-left: -2rem;
+    
+    }
+
+    /* soon added  */
+    
+    .soon{
+      
+        margin: 2rem 3rem ;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        /* padding: 0.5rem 2rem; */
+        height: 5rem;
+    }
+    .soon i{
+        margin-left: -0.2rem;
+        font-size: 3rem;  
+    }
+    .soon p{
+        margin-left: 1rem;
+        font-size: 0.7rem;
+    }
+    
+    /* contact button  */
+    .contact1{
+        overflow-y: hidden;
+        width: 19rem;
+        height: 4rem;
+        /* width: 31.5rem; */
+       border-radius: 1rem;
+      /* padding-top: 1rem;  */
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+
+    }
+    /* .contact1 a{
+       
+        font-size: 1.5rem;
+        
+    } */
+    
+    .contact{
+        width: 19rem;
+        height: 4rem;
+        /* width: 31.5rem; */
+       border-radius: 1rem;
+      padding-top: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .contact a{
+       
+        font-size: 1.5rem;
+        
+    }
+
+    /* second page  */
+
+     .opt{
+        height: 5rem;
+        margin: 2rem  3rem 0;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        padding-top: 2rem;
+       
+     }
+     .question{
+        margin: 2rem 2rem 0rem;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+      padding: 0.5rem 2rem;
+     }
+     .cont{
+        /* margin: 1rem; */
+        padding-top: 1rem;
+    }
+    .empty{
+        display: none;
+    }
+    .score{
+        margin-top: 40%;
+        margin-bottom: 80%;
+        display: none;
+        color: #fff;
+        text-align: center;
+          width: 80%;
+        height: 20rem;
+        background-color: #e78230;
+        line-height: 4rem;
+    }
+    
+    button{
+        font-size: 2rem;
+        background-color: #30445d;
+        color: #fff;
+        padding: 1rem;
+        border-radius: 2rem;
+        box-shadow: 0.01rem 0.2rem 0.5rem #333;
+        border: none;
+    }
+    
+}
+
