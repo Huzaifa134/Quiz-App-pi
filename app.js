@@ -59,6 +59,7 @@ const quesansbut=document.querySelector(".quesansbut");
 const Gloadbar=document.querySelector(".green");
 const Rloadbar=document.querySelector(".red");
 const value=document.querySelector(".value");
+const value1=document.querySelector(".value1");
 
 
 soon.addEventListener("click",()=>{
@@ -80,6 +81,7 @@ iq.addEventListener("click" , ()=>{
 });
 let quescount =0;
 let score=0;
+let wrongans=0;
 
 const loadques= () =>{
     const listques = ques[quescount];
@@ -130,13 +132,15 @@ contact1.addEventListener("click", ()=>{
             value.style.textAlign="center";
             value.innerHTML=(score/4 )*100 +"%";
             
-        }
-        
-       
-        
-        
+        };
+   
+        };
+    if(checkedans!==ques[quescount].ans){
+        wrongans++;
+     Rloadbar.style.width=(wrongans/4 )*100 +"%";
+    value1.style.textAlign="right";
+    value1.innerHTML=(wrongans/4 )*100 +"%";
 
-        
     };
     quescount++;
 
